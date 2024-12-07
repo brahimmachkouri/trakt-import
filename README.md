@@ -37,7 +37,7 @@ This script imports a list of IMDb IDs from a JSON file and adds them to the use
 
 Using Authorization Code Grant (requires user login):
 ```bash
-python script.py imdb_ids.json --auth-method authorization_code
+python script.py imdb_ids.json
 ```
 <!-- 
 Using Client Credentials Grant (no user login required):
