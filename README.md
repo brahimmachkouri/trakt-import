@@ -35,10 +35,15 @@ This script imports a list of IMDb IDs from a JSON file and adds them to the use
 2. Create a JSON file with IMDb IDs (cf above)
 3. Run the script :
 
-Using Authorization Code Grant (requires user login):
+For movies :
 ```bash
-python script.py imdb_ids.json
+python script.py imdb_ids.json --movies
 ```
+For TV Shows :
+```bash
+python script.py imdb_ids.json --shows
+```
+
 <!-- 
 Using Client Credentials Grant (no user login required):
 ```bash
