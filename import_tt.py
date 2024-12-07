@@ -139,7 +139,7 @@ def main():
     parser.add_argument(
         "--auth-method", 
         choices=["client_credentials", "authorization_code"], 
-        default="client_credentials", 
+        default="authorization_code", 
         help="Méthode d'authentification à utiliser."
     )
     args = parser.parse_args()
